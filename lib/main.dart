@@ -13,7 +13,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.amber,
+        body: Container(
+          alignment: Alignment.center,
+          child: ElevatedButton(onPressed: (){}, child: Text('Hello')),
       ),
-    );
+    ));
   }
 }
