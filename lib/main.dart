@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.amber,
+        backgroundColor: Colors.red,
         body: Container(
           alignment: Alignment.center,
           child: ElevatedButton(onPressed: (){}, child: Text('Hello')),
